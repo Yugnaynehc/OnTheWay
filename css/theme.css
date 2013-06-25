@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+
+	background-color:#6eb6db;
+	
+}
+
+.spacer{
+	clear:both;
+}
+
+#header{	
+	
+	width:1000px;
+	margin:auto;
+	
+
+}
+
+#container{
+	position:relative;
+	margin:auto;
+	margin-top:5px;
+	width:1000px;
+	background:white;
+	border-radius:10px;
+
+}
+
+
+
+
+nav{
+	padding:5px;
+	font:24px "华文新魏";
+	
+	
+	border-bottom:5px solid #6eb6db;
+	
+}
+
+nav a:link, nav a:visited{
+	
+	padding:5px;
+	text-decoration:none;
+	color:#0937F2;
+}
+
+nav #ho:hover{
+	color:white;
+	background-color:#224699;
+}
+
+nav #th:hover{
+	color:white;
+	background-color:#FF8000;
+}
+
+nav #ph:hover{
+	color:white;
+	background-color:green;
+}
+
+nav #vi:hover{
+	color:white;
+	background-color:red;
+}
+
+nav #en:hover{
+	color:white;
+	background-color:#F0F;
+}
+
+nav #ab:hover{
+	color:white;
+	background-color:gray;
+}
+
+#article{	
+	min-height:600px;
+	background:url(../files/theme.png);
+	padding:10px;
+	border:5px solid white;
+}
+
+
+
+#container #footer{
+	clear:both;
+	height:5%;
+	border-top:5px solid #6eb6db;
+	text-align:center;
+	font:10px arial;
+}
+

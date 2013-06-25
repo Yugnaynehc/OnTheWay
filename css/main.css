@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+	html {
+		overflow: hidden;
+	}
+	body {
+		margin: 0px;
+		padding: 0px;
+		background: gray;
+		position: absolute;
+		top: 0px;
+		left: 0px;
+		width: 100%;
+		height: 100%;
+	}
+	#screen {
+		position: absolute;
+		top: 1%;
+		left: 1%;
+		width: 98%;
+		height: 98%;
+		background: gray;
+		color: #fff;
+	}
+	#screen div {
+		position: absolute;
+		overflow: hidden;
+		cursor: pointer;
+	}
+	#screen img {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+	}
+	#screen .label {
+		position: absolute;
+		color: #FFF;
+		background: gray;
+		font-family: arial;
+		white-space: no-wrap;
+	}

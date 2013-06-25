@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+#article{
+	position:relative;
+	left:5%;
+	width:70%;
+}
+
+.picture{
+	position:relative;
+	border:7px double #E4E4E4;
+	left:50px;
+	margin:20px 0 20px 0;
+}
+
+p{
+	text-indent:2em;
+	font-size:0.85em;
+	line-height:170%;
+
+}
+
+#article p{
+	font-size:12px;
+}
+
+#aside{
+	margin-right:10px;
+	width:20%;
+}
+
+ul{
+	font-size:10px;
+	list-style-type:none;
+	padding:2px;
+	width:200px;
+	left:20px;
+}
+
+ul a:link, ul a:visited, ul a:hover, ul a:active{
+	display:block;
+	padding:2px 10px;
+	text-decoration:none;
+}
+
+ul a:link{
+	color:#4E5AFE;
+}
+
+ul a:visited{
+	color:#4E5AFE;
+}
+
+ul a:hover{
+	color:#f00;
+	background:#fff;
+}
+
+ul a:active{
+	color:#333;
+}
+
+li{
+	background:#F4FCFF;
+	padding:5px;
+}
+
+.show{
+	position:relative;
+	left:5%;
+	font-weight:bold;
+	color:white;
+	font:20px "黑体";
+	width:325px;
+	background-color:#FF8000;
+	padding:5px;
+	margin-top:50px;
+	border-radius:7px;
+}

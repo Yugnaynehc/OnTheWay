@@ -1,0 +1,54 @@
+#movies{
+	width:100%;	
+	border:3px solid gray;
+}
+
+ul{
+	position:relative;
+	list-style-type:none;
+	padding:2px;
+	width:200px;
+	left:20px;
+	font-size:10px;
+}
+
+ul a:link, ul a:visited, ul a:hover, ul a:active{
+	display:block;
+	padding:2px 10px;
+}
+
+ul a:link{
+	color:#4E5AFE;
+}
+
+ul a:visited{
+	color:#4E5AFE;
+}
+
+ul a:hover{
+	color:#f00;
+	background:#fff;
+}
+
+il a:active{
+	color:#333;
+}
+
+li{
+	background:#F4FCFF;
+	padding:5px;
+}
+
+a{
+	text-decoration:none;
+}
+
+.show{
+	font-weight:bold;
+	color:white;
+	font:20px "黑体";
+	width:325px;
+	background:red;
+	padding:5px;
+	border-radius:7px;
+}

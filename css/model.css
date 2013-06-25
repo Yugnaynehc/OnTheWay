@@ -1,0 +1,46 @@
+@charset "utf-8";
+/* CSS Document */
+
+	#box {
+		position: absolute;
+		visibility: hidden;
+		
+	}
+	#screen {
+		position: absolute;
+		left: 5px;
+		width: 97%;
+		height: 80%;
+	}
+	#box img  {
+		position: absolute;
+		cursor: pointer;
+		border:3px solid white;
+	}
+	#box span {
+		position: absolute;
+		color: white;
+		font: 12px "黑体";
+		width: 200px;
+	}
+	#box a {
+		text-decoration: none;
+		color:#ff8000;
+	}
+	#box a:hover	{
+		text-decoration: none;
+		background:#ff8000;
+		color:#ffffff;
+	}
+	#box a:visited {
+		text-decoration: none;
+		color:#ff8000;
+	}
+	#box a:visited:hover {
+		text-decoration: none;
+		background:#ff8000;
+		color:#ffffff;
+	}
+	#lnk {
+		visibility: hidden;
+	}

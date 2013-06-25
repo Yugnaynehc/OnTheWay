@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color:#6eb6db;
+}
+
+.spacer{
+	clear:both;
+}
+
+#header{	
+	width:1000px;
+	margin:auto;
+}
+
+#container{
+	position:relative;
+	margin:auto;
+	margin-top:5px;
+	width:1000px;
+	background:white;
+	border-radius:10px;
+}
+
+
+
+
+nav{
+	padding:5px;
+	font:24px "华文新魏";
+	border-bottom:5px solid #6eb6db;
+}
+
+nav a:link, nav a:visited{
+	padding:5px;
+	text-decoration:none;
+	color:#0937F2;
+}
+
+nav #ho:hover{
+	color:white;
+	background-color:#224699;
+}
+
+nav #th:hover{
+	color:white;
+	background-color:#FF8000;
+}
+
+nav #ph:hover{
+	color:white;
+	background-color:green;
+}
+
+nav #vi:hover{
+	color:white;
+	background-color:red;
+}
+
+nav #en:hover{
+	color:white;
+	background-color:#F0F;
+}
+
+nav #ab:hover{
+	color:white;
+	background-color:gray;
+}
+
+#article{	
+	width:92%;
+	height:70%;
+	margin:auto;
+	margin-top:30px;
+	margin-bottom:30px;
+	padding:10px;
+
+}
+
+object{
+	margin:auto;
+	margin-top:20px;
+	display:block;
+}
+
+#sidea{
+	float:left;
+	background:#F7F7F7;
+	border:3px solid #F7F7F7;
+	border-radius:7px;
+	padding:2px;
+
+}
+
+#sideb{
+	float:right;
+	background:#F7F7F7;
+	border:3px solid #F7F7F7;
+	border-radius:7px;
+	padding:2px;
+}
+
+#sidec{
+	float:left;
+	background:#F7F7F7;
+	border:3px solid #F7F7F7;
+	border-radius:7px;
+	padding:2px;
+}
+
+#sided{
+	float:right;
+	background:#F7F7F7;
+	border:3px solid #F7F7F7;
+	border-radius:7px;
+	padding:2px;
+}
+
+
+.preview{
+	float:left;
+	border:3px double gray;
+	margin:3px;
+}
+
+ul{
+	float:right;
+	font-size:10px;
+	list-style-type:none;
+	padding:2px;
+	width:100px;
+	left:20px;
+	display:block;
+	height:225px;
+	border:3px solid #D5D5D5;
+	border-radius:5px;
+
+}
+
+ul a:link, ul a:visited, ul a:hover, ul a:active{
+	display:block;
+	padding:2px 10px;
+	text-decoration:none;
+}
+
+ul a:link{
+	color:#4E5AFE;
+}
+
+ul a:visited{
+	color:#4E5AFE;
+}
+
+ul a:hover{
+	color:#f00;
+	background:#fff;
+}
+
+ul a:active{
+	color:#333;
+}
+
+li{
+	background:#F7F7F7;
+	padding:5px;
+}
+
+#container #footer{
+	clear:both;
+	height:5%;
+	border-top:5px solid #6eb6db;
+	text-align:center;
+	font:10px arial;
+}
+
+
